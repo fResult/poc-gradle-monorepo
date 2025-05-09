@@ -26,5 +26,9 @@ dependencies {
 tasks.register<JavaExec>("runApp") {
   mainClass = "com.fResult.monorepo.MainApplication"
   classpath = sourceSets["main"].runtimeClasspath + sourceSets["main"].output
-  println("Log ClassPath: $classpath")
+  sourceSets["main"].output.forEach { it.display() }
+  classpath.forEach(::println)
 }
+
+fun Any.display() = println("[DISPLAY] $this" )
+
