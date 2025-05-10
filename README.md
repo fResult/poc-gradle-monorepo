@@ -9,13 +9,13 @@
 ```console
 ➜ tree
 .
-├── main-project
+├── main-project/
 │   ├── src/
 │   └── build.gradle.kts
-├── ext-project-1
+├── ext-project-1/
 │   ├── src/
 │   └── build.gradle.kts
-├── ext-project-2
+├── ext-project-2/
 │   ├── src/
 │   └── build.gradle.kts
 ├── build.gradle.kts
