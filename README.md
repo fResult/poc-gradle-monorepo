@@ -1,5 +1,7 @@
 # POC Monorepo for Gradle Kotlin DSL
 
+This is a POC repository that build to support of [`Learning Webflux 3.0`][learning-webflux-repo] repository.
+
 ## Prerequisite
 
 - JDK 23
@@ -53,3 +55,6 @@ Configuration cache entry reused.
 > .\gradlew.bat runApp
 [Sub-project] Hello from Library!
 ```
+
+<!-- References -->
+[learning-webflux-repo]: https://github.com/fResult/Learn-Spring-Webflux-3.0
