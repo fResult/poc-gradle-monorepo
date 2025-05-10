@@ -36,7 +36,7 @@ BUILD SUCCESSFUL in 682ms
 Configuration cache entry reused.
 
 # For Windows
-.\gradlew.bat runApp
+> .\gradlew.bat runApp
 BUILD SUCCESSFUL in 682ms
 10 actionable tasks: 10 up-to-date
 Configuration cache entry reused.
@@ -50,6 +50,6 @@ Configuration cache entry reused.
 [Sub-project] Hello from Library!
 
 # For Windows
-.\gradlew.bat runApp
+> .\gradlew.bat runApp
 [Sub-project] Hello from Library!
 ```
