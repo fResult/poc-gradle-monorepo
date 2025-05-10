@@ -29,9 +29,14 @@
 **Build:**
 
 ```console
+# For Unix
 ➜ ./gradlew build
-Reusing configuration cache.
+BUILD SUCCESSFUL in 682ms
+10 actionable tasks: 10 up-to-date
+Configuration cache entry reused.
 
+# For Windows
+.\gradlew.bat runApp
 BUILD SUCCESSFUL in 682ms
 10 actionable tasks: 10 up-to-date
 Configuration cache entry reused.
@@ -40,6 +45,11 @@ Configuration cache entry reused.
 **Run:**
 
 ```console
+# For Unix
 ➜ ./gradlew runApp
+[Sub-project] Hello from Library!
+
+# For Windows
+.\gradlew.bat runApp
 [Sub-project] Hello from Library!
 ```
