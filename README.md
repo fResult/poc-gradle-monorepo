@@ -9,6 +9,8 @@
 ```console
 ➜ tree
 .
+├── build.gradle.kts
+├── settings.gradle.kts
 ├── main-project/
 │   ├── src/
 │   └── build.gradle.kts
@@ -18,8 +20,6 @@
 ├── ext-project-2/
 │   ├── src/
 │   └── build.gradle.kts
-├── build.gradle.kts
-├── settings.gradle.kts
 └── gradle/
     └── libs.versions.toml
 ```
