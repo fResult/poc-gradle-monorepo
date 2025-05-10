@@ -12,16 +12,16 @@
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ├── main-project/
-│   ├── src/
-│   └── build.gradle.kts
+│    ├── src/
+│    └── build.gradle.kts
 ├── ext-project-1/
-│   ├── src/
-│   └── build.gradle.kts
+│    ├── src/
+│    └── build.gradle.kts
 ├── ext-project-2/
-│   ├── src/
-│   └── build.gradle.kts
+│    ├── src/
+│    └── build.gradle.kts
 └── gradle/
-    └── libs.versions.toml
+     └── libs.versions.toml
 ```
 
 ## Available Scripts
