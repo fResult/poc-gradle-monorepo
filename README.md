@@ -4,6 +4,27 @@
 
 - JDK 23
 
+## Project Structure
+
+```console
+➜ tree
+.
+├── main-project
+│   ├── src/
+│   └── build.gradle.kts
+├── ext-project-1
+│   ├── src/
+│   └── build.gradle.kts
+├── ext-project-2
+│   ├── src/
+│   └── build.gradle.kts
+├── build.gradle.kts
+├── settings.gradle.kts
+└── gradle/
+    ├── libs.versions.toml
+    └── wrapper
+```
+
 ## Available Scripts
 
 **Build:**
