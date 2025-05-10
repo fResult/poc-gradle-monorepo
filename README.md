@@ -21,8 +21,7 @@
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── gradle/
-    ├── libs.versions.toml
-    └── wrapper
+    └── libs.versions.toml
 ```
 
 ## Available Scripts
